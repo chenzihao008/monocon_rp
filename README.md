@@ -8,8 +8,8 @@
 - [kitti] https://www.cvlibs.net/datasets/kitti/eval_object.php?obj_benchmark=3d
 - [训练:验证数据比例] 3712:3769
 ## setting
-- [batch] 8
-- [epoch] 100
+- [batchsize] 8
+- [epoch] 200
 ## traget创建方式
 
 ## 训练记录
