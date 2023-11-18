@@ -1,6 +1,13 @@
 # monocon_rp (2022.08.10)
 此项目用于复现monocon 
 源码地址：https://github.com/chenzihao008/monocon-pytorch.git
+## 修改部分
+### 将训练源码修改为DDP训练,使用mp.spwan启动，单机单卡、单机多卡均可使用
+- [修改了以下文件：]
+- engine\base_engine.py
+- engine\monocon_engine.py
+- train.py
+### 存在dataloader多进程读取数据占用显存问题
 ## environment
 - [显卡] 3080*1 10G
 - [CUDA] 10.1
